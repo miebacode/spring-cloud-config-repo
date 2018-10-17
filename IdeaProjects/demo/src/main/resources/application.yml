@@ -1,0 +1,13 @@
+server:
+  port: 8000
+spring:
+  jpa:
+    generate-ddl: false
+    show-sql: true
+    hibernate:
+      ddl-auto: none
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/Girldb?useSSL=false
+    username: root
+    password: 123456
